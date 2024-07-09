@@ -1,0 +1,27 @@
+table {
+    width:100 ;
+    border-collapse: collapse
+}
+th, td {  
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #08f657;
+}
+th {
+    background-color: #09f739;
+}
+tr:nth-child(even) {
+    background-color: #0cf652;
+}
+.button {
+    background-color: #6f6c6c;
+    border: none;
+    color: rgb(16, 15, 15);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
